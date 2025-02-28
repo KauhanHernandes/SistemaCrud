@@ -55,8 +55,7 @@ export const ClientService = {
     return true;
   },
   
-  // Utility method to clear all clients (for testing)
-  clearAll: (): void => {
+    clearAll: (): void => {
     localStorage.removeItem(STORAGE_KEY);
   }
 };
